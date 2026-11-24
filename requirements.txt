@@ -1,0 +1,6 @@
+gradio
+fastapi
+google-genai
+langgraph
+python-dotenv
+groq

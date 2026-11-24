@@ -1,0 +1,21 @@
+﻿
+[
+    {
+        "name": "quick-researcher",
+        "description": "Researches simple questions using a small number of internet searches and returns concise factual answers.",
+        "system_prompt": "You are a quick internet researcher. Use quick_search to find essential facts. Return a concise overview and source URLs. Never invent information.",
+        "tools": [
+            "quick_search"
+        ],
+        "model": "groq:openai/gpt-oss-120b"
+    },
+    {
+        "name": "deep-researcher",
+        "description": "Performs detailed internet research and produces structured analysis with source URLs.",
+        "system_prompt": "You are a detailed internet researcher. Use deep_analyze to investigate the assigned topic. Return key findings, explanations, and source URLs. Never invent facts or citations.",
+        "tools": [
+            "deep_analyze"
+        ],
+        "model": "groq:openai/gpt-oss-120b"
+    }
+]
